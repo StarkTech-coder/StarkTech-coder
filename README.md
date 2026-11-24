@@ -1,41 +1,47 @@
-# 🦾 Stark AI & Systems Engineering Lab
+# Berk Han Türkoğlu
+### Software Developer | Go · Python · Distributed Systems · Network Engineering
 
-```text
-  ⚡ System Mode: LOCAL / OFFLINE-FIRST
-  🛡️ Core Focus: Distributed Systems, Low-Level Networking, & Autonomous Architectures (AEGIS)
-  🧠 Current Stack: Go (Golang) | Advanced Concurrency | Network Protocols | Binary Engineering
-Welcome to my core development environment. I am pivoting my software engineering journey toward becoming a world-class Distributed Systems Architect and Network Systems Engineer. My focus is on building resilient, local-first, and highly concurrent software infrastructures.
+I build software focused on distributed systems, network communication, concurrency, and local-first architectures.
 
-"I'm focusing on first principles, structural foundations, and low-level control."
+My primary development languages are **Go and Python**. I am particularly interested in understanding how systems communicate, coordinate, recover from failures, and operate reliably under constrained conditions.
 
-🔬 Current Mission: AEGIS Architecture & Core Stack
-I am currently engineering AEGIS, diving deep into computer networks, distributed systems consensus, and highly concurrent architectures.
+## Current Focus
 
-📡 1. Deep Networking & Protocols
-Transport Layer: Engineering custom TCP/UDP socket servers and client pipelines from scratch.
+- **Network Engineering:** TCP/UDP communication, socket programming, custom protocols, binary serialization.
+- **Go & Concurrency:** Goroutines, channels, worker pools, synchronization, context management, and race-condition prevention.
+- **Distributed Systems:** Node discovery, heartbeats, leader election, fault tolerance, and event-driven architectures.
+- **Edge & Robotics Systems:** Telemetry, device communication, and software architectures for future hardware integration.
+- **Local-First AI:** Local LLMs, Python services, data processing, and offline-capable applications.
 
-Custom Frame Architectures: Designing binary protocol headers (VERSION, TYPE, NODE ID, MISSION ID, PAYLOAD, CRC) using raw byte slices ([]byte).
+## Selected Projects
 
-Serialization: Working with JSON, Protobuf, and optimized Binary Encoding format lines.
+**AEGIS — Distributed Networking Engine**
 
-⚡ 2. Advanced Go Concurrency & Systems
-Execution Models: Mastering high-throughput Worker Pools, Pipelines, Fan-In/Fan-Out patterns, and strict Race Condition preventions.
+A Go-based networking project exploring node discovery, communication protocols, heartbeats, failover, and distributed coordination.
 
-Synchronization: Deep usage of sync.Mutex, RWMutex, atomic operations, and context lifecycle boundaries.
+**ARK — Local-First AI Assistant**
 
-🌐 3. Distributed Architecture & Edge Robotics
-Consensus & Infrastructure: Studying Cluster Management, Leader Election, Heartbeats, Split-Brain handling, and Event-Driven Pub/Sub models (NATS, gRPC).
+An AI assistant project combining Go, Python, local language models, memory, and automation.
 
-Robotics Integration: Designing hardware boundaries for future iterations involving ESP32, CAN Bus, UART, and MAVLink telemetry lines.
+**AEGIS Tracker — Telemetry Platform**
 
-⏳ Evolution & System Logs (Where I Started)
-Every production-grade architect starts with the fundamentals. My repository history contains legacy frontend prototypes, mobile application layouts, and initial database trials (serpil-moda-web, or early web scripts).
+A Go-based telemetry ingestion and processing project built around the AEGIS networking core.
 
-These repositories serve as my Yazılım Müzesi (Software Museum)—a direct timeline of my commitment, showing exactly where I started, how my curiosity shifted from user interfaces to low-level systems, and how I built the stamina to design high-performance architectures.
+**SIMA — Autonomous Systems Simulation**
 
-🛠️ The System Engineer Blueprint
-Languages: Go (Golang), Python, Dart, C++
+A simulation environment exploring communication between autonomous underwater vehicle models using network-based architectures.
 
-Architectures: Clean/Hexagonal Architecture, High-Concurrency Pipelines, Local P2P Networks
+## Technology Stack
 
-Target Environments: Linux Systems (systemctl, ss, Process/Thread tracking), Docker Containers, Isolated Offline Environments
+- **Languages:** Go, Python
+- **Networking:** TCP, UDP, QUIC, RUDP
+- **Systems:** Concurrency, synchronization, distributed communication
+- **Data & Messaging:** SQLite, JSON, Protobuf
+- **AI:** Ollama, local LLMs, RAG
+- **Environments:** macOS, Linux, Docker
+
+## Engineering Philosophy
+
+I prefer understanding systems from first principles: how data moves, how components interact, where failures occur, and how reliable software is built.
+
+My repositories reflect an ongoing engineering journey—from application development toward networking, distributed systems, and edge computing.
