@@ -1,47 +1,41 @@
 # Berk Han Türkoğlu
-### Software Developer | Go · Python · Distributed Systems · Network Engineering
+### AI Engineering · Go · Python · Networking · Distributed Systems
 
-I build software focused on distributed systems, network communication, concurrency, and local-first architectures.
+I build software at the intersection of Artificial Intelligence, networking, and distributed systems.
 
-My primary development languages are **Go and Python**. I am particularly interested in understanding how systems communicate, coordinate, recover from failures, and operate reliably under constrained conditions.
+My primary focus is **AI Engineering**: developing local-first AI applications, integrating language models, and building memory, retrieval, and automation capabilities with Python and Go.
 
-## Current Focus
+Alongside AI development, I work on the networking and distributed-systems foundations that make intelligent and autonomous software reliable.
 
-- **Network Engineering:** TCP/UDP communication, socket programming, custom protocols, binary serialization.
-- **Go & Concurrency:** Goroutines, channels, worker pools, synchronization, context management, and race-condition prevention.
-- **Distributed Systems:** Node discovery, heartbeats, leader election, fault tolerance, and event-driven architectures.
-- **Edge & Robotics Systems:** Telemetry, device communication, and software architectures for future hardware integration.
-- **Local-First AI:** Local LLMs, Python services, data processing, and offline-capable applications.
+## Engineering Focus
 
-## Selected Projects
+- **AI Engineering:** Local LLMs, RAG, AI agents, memory systems, model integration, and intelligent automation.
+- **Networking:** TCP/UDP, socket programming, custom protocols, QUIC, and telemetry.
+- **Distributed Systems:** Concurrency, node discovery, heartbeats, leader election, and fault tolerance.
+- **Autonomous Systems:** Communication and coordination architectures for robotic simulations.
 
-**AEGIS — Distributed Networking Engine**
+## Main Projects
 
-A Go-based networking project exploring node discovery, communication protocols, heartbeats, failover, and distributed coordination.
+### ARK — Local-First AI Assistant
+My main active AI project. Building an AI assistant with local language models, memory, RAG, and automation using Go and Python.
 
-**ARK — Local-First AI Assistant**
+### AEGIS — Networking & Distributed Systems
+A Go-based networking project focused on communication protocols, node discovery, heartbeats, concurrency, and distributed coordination.
 
-An AI assistant project combining Go, Python, local language models, memory, and automation.
-
-**AEGIS Tracker — Telemetry Platform**
-
-A Go-based telemetry ingestion and processing project built around the AEGIS networking core.
-
-**SIMA — Autonomous Systems Simulation**
-
-A simulation environment exploring communication between autonomous underwater vehicle models using network-based architectures.
+### SIMA — Autonomous Systems Simulation
+An AEGIS-based simulation environment exploring communication and coordination between autonomous underwater vehicle models.
 
 ## Technology Stack
 
 - **Languages:** Go, Python
+- **AI:** Ollama, Local LLMs, RAG, AI Agents
 - **Networking:** TCP, UDP, QUIC, RUDP
-- **Systems:** Concurrency, synchronization, distributed communication
-- **Data & Messaging:** SQLite, JSON, Protobuf
-- **AI:** Ollama, local LLMs, RAG
+- **Systems:** Concurrency, Distributed Communication, Fault Tolerance
+- **Data:** SQLite, JSON, Protobuf
 - **Environments:** macOS, Linux, Docker
 
-## Engineering Philosophy
+## Engineering Approach
 
-I prefer understanding systems from first principles: how data moves, how components interact, where failures occur, and how reliable software is built.
+I learn by building, testing, and understanding systems from first principles.
 
-My repositories reflect an ongoing engineering journey—from application development toward networking, distributed systems, and edge computing.
+My goal is to become an AI Engineer with strong systems and networking foundations, capable of developing intelligent applications and understanding the infrastructure behind them.
